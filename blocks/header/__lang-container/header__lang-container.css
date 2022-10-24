@@ -1,3 +1,5 @@
 .header__lang-container{
   align-self: flex-end;
+  display: flex;
+  gap: 18px;
 }

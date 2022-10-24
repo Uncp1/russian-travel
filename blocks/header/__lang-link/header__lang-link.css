@@ -2,12 +2,19 @@
   font-size: 24px;
   line-height: 28px;
   text-decoration-line: none;
+  text-transform:capitalize;
   color: #FFFFFF;
+  margin-bottom: 6px;
+}
+
+.header__lang-link:first-child{
+  text-decoration-line: underline;
 }
 
 @media screen and (max-width: 767px) {
-  .header{
+  .header__lang-link{
     font-size: 18px;
     line-height: 20px;
+    margin-bottom: 8px;
   }
 }
