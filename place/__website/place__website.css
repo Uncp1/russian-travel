@@ -1,0 +1,11 @@
+.place__website{
+  align-self: end;
+  min-width: 288px; /*чтобы макет не менялся*/
+  justify-self: start;
+}
+
+@media screen and (max-width: 767px) {
+  .place__website{
+    align-self: center;
+  }
+}
